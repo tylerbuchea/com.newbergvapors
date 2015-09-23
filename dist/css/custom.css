@@ -1,0 +1,18 @@
+header .intro-text {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#juices {
+	padding-top: 30px;
+}
+
+.portfolio-link .img-responsive {
+	height: 300px;
+}
+
+@media (max-width: 993px) {
+  aside.clients {
+		display: none;
+  }
+}
