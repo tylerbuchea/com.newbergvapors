@@ -16,3 +16,7 @@ header .intro-text {
 		display: none;
   }
 }
+
+.intro-text .btn-xl {
+	margin: 4px;
+}
