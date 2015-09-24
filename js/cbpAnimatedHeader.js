@@ -28,6 +28,8 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			$('iframe').addClass('animated fadeIn');
+			$('iframe').css('visibility', 'visible');
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
